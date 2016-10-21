@@ -12,19 +12,24 @@ div {
   text-align: center;
 }
 
-.btn {
+a {
   padding: .4em .75em .3em;
   border-radius: 8px;
-  border-width: 3px;
+}
+
+.btn {
+  display: inline-block;
   text-decoration: none;
   font-size: 1.125rem;
   background-color: #333;
   color: #fff;
+  border-width: 3px;
 }
 
 .btn-subtle {
   background-color: #ccc;
   color: #fff;
+  border-width: 3px;
 }
 
 .btn-ghost {
@@ -36,12 +41,12 @@ div {
 .btn-warning {
   background-color: #f33;
   color: #fff;
+  border-width: 3px;
 }
 
 .btn-small {
   font-size: .875rem;
 }
-
 
 .btn-big {
   font-size: 1.5rem;
