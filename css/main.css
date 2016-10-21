@@ -26,10 +26,18 @@ a {
   border-width: 3px;
 }
 
+.btn:hover {
+  background-color: #000;
+}
+
 .btn-subtle {
   background-color: #ccc;
   color: #fff;
   border-width: 3px;
+}
+
+.btn-subtle:hover {
+  background-color: #666;
 }
 
 .btn-ghost {
@@ -38,10 +46,19 @@ a {
   border: 3px solid #666;
 }
 
+.btn-ghost:hover {
+  background-color: #666;
+  color: #fff;
+}
+
 .btn-warning {
   background-color: #f33;
   color: #fff;
   border-width: 3px;
+}
+
+.btn-warning:hover {
+  background-color: #933;
 }
 
 .btn-small {
